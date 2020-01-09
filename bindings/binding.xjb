@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:annox="http://annox.dev.java.net"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd"
+    jaxb:extensionBindingPrefixes="annox" version="2.1">
+
+<!--
+    <jaxb:bindings node="/xs:schema"
+        schemaLocation="http://10.67.16.13:7921/esb/auto/lp/configuracion/movimientosnegociocomercial?xsd=xsd5">
+
+        <jaxb:bindings
+            node="/xs:schema/xs:complexType[@name='consultaConvenioNuevoNegocioResponse']">
+            <jaxb:class name="consultaConvenioNuevoNegocioResponse2" />
+        </jaxb:bindings>
+        <jaxb:bindings
+            node="/xs:schema/xs:element[@name='consultaNegocioResponse']">
+            <jaxb:class name="consultaNegocioResponseNN" />
+        </jaxb:bindings>
+        <jaxb:bindings
+            node="/xs:schema/xs:element[@name='consultaConvenioNuevoNegocioResponse']">
+            <jaxb:class name="consultaConvenioNuevoNegocioResponseNN" />
+        </jaxb:bindings>
+
+    </jaxb:bindings>
+    -->
+</jaxb:bindings>

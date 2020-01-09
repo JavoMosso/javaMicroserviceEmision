@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:annox="http://annox.dev.java.net"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd"
+    jaxb:extensionBindingPrefixes="annox" version="2.1">
+
+    <jaxb:bindings node="/xs:schema"
+        schemaLocation="http://10.67.52.12:7918/esb/sce/info/movimientos/comunes/contrato/MovimientosComunes?xsd=xsd0">
+        <jaxb:bindings
+            node="/xs:schema/xs:element[@name='EmitirCancelacionResponse']">
+            <jaxb:class name="EmitirCancelacionResponse2" />
+        </jaxb:bindings>
+        <jaxb:bindings
+            node="/xs:schema/xs:element[@name='EmitirCancelacion']">
+            <jaxb:class name="EmitirCancelacion2" />
+        </jaxb:bindings>
+        
+        <jaxb:bindings
+            node="/xs:schema/xs:element[@name='TarificarCancelacion']">
+            <jaxb:class name="TarificarCancelacion2" />
+        </jaxb:bindings>
+        <jaxb:bindings
+            node="/xs:schema/xs:element[@name='TarificarCancelacionResponse']">
+            <jaxb:class name="TarificarCancelacionResponse2" />
+        </jaxb:bindings>
+    </jaxb:bindings>
+      <jaxb:bindings node="/xs:schema"
+        schemaLocation="http://10.67.52.12:7918/esb/sce/info/movimientos/comunes/contrato/MovimientosComunes?xsd=xsd1">
+        <jaxb:bindings
+            node="/xs:schema/xs:complexType[@name='EmitirCancelacionResponse']">
+            <jaxb:class name="EmitirCancelacionResponse22" />
+        </jaxb:bindings>
+        
+        <jaxb:bindings
+            node="/xs:schema/xs:complexType[@name='TarificarCancelacionResponse']" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <jaxb:bindings  node="xs:sequence/xs:element[@name='NUM_POLIZA']" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            
+            	<jaxb:property name="numPoliza" />
+            </jaxb:bindings>
+        </jaxb:bindings>
+    </jaxb:bindings>
+    
+    
+      <jaxb:bindings node="/xs:schema"
+        schemaLocation="http://10.67.52.12:7918/esb/sce/info/movimientos/comunes/contrato/MovimientosComunes?xsd=xsd3">
+        <jaxb:bindings
+            node="/xs:schema/xs:complexType[@name='rehabilitarPolizaResponse']">
+            <jaxb:class name="rehabilitarPolizaResponse2" />
+        </jaxb:bindings>
+    </jaxb:bindings>
+
+</jaxb:bindings>

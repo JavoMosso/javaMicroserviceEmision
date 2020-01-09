@@ -1,0 +1,34 @@
+{
+    "usuario" : "USRWSP",
+    "password" : "mexico.1",
+    "idCotizacion" : "CIANNE190726249296",
+    "codigoPromocion" : "COP0000331",
+    "iniVig" : "20190730",
+    "finVig" : "20200730",
+    "idUMO" : "1",
+    "formaPago" : "A",
+    "numeroCaratula" : "4643647",
+    "canalCobro" : "canalCobro",
+    "canalCobroSub" : "canalCobroSub",
+    "indContConductor" : "indContConductor",
+    "indContBenef" : "indContBenef",
+    "primaTotal" : "4857.04",
+    "metodoPago" : "metodoPago",
+    "accion" : "accion",
+    "tienda" : "tienda",
+    "descuentoGC" : "descuentoGC",
+    "referencia1" : "referencia1",
+    "referencia2" : "referencia2",
+    "paquetes" : [{
+        "cvePaquete" : "PRAUTRC0VD",
+        "coberturas" : [{
+            "clavecobertura": "0000001268",
+            "deducible": "0.0",
+            "sa": "999999.0"
+        },{
+            "clavecobertura": "0000000904",
+            "deducible": "0.0",
+            "sa": "3000000.0"
+        }]
+    }]
+}

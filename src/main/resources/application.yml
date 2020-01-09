@@ -1,0 +1,38 @@
+server:
+  port: ${server_port:8123}
+
+wsp_rootLogger: DEBUG
+
+wsp_url_EmisionEOT: http://10.67.16.14:7959/mbr/au/sp/sce/contrato/ContratacionAutos
+wsp_url_Errores: http://wsp-erroresdb-uat.oscpuat.gnp.com.mx/erroresdb
+wsp_url_Catalogo: http://wsp-catalogos-uat.oscpuat.gnp.com.mx/catalogo
+wsp_url_Transacciones: http://wsp-txlogger-uat.oscpuat.gnp.com.mx/txlogger
+#wsp_url_Liquidacion: http://wsp-liquidacion-uat.oscpuat.gnp.com.mx
+wsp_url_Liquidacion: http://localhost:8120/liquidaRecibos
+wsp_url_Validas: http://wsp-validareglas-uat.oscpuat.gnp.com.mx/validareglas/validareglas/json
+wsp_url_Impresion: http://wsp-impresion-uat.oscpuat.gnp.com.mx/impresion
+wsp_url_Persona: http://wsp-persona-uat.oscpuat.gnp.com.mx/persona
+wsp_url_Emision: http://10.67.16.13:7964/esb/auto/lp/poliza/emision
+wsp_url_Movimiento: http://10.67.16.19/configuradorWeb/MovimientosNegocioComercialWebImplPort
+wsp_url_Cotizacion: http://wsp-cotizador-uat.oscpuat.gnp.com.mx/cotizar
+wsp_url_urlPasos: http://10.67.16.19/configuradorWeb/CatalogoConfiguradorNegocioWebImplPort
+wsp_url_prodTecCom: http://10.67.16.19/tallerserviciosWeb/CatalogosWebImplPort
+wsp_url_urlFoliador: http://10.67.16.19/odsWeb/FoliadorWebImplPort
+wsp_url_Cancelacion: http://10.67.16.13:7918/esb/sce/info/movimientos/comunes/contrato/MovimientosComunes
+wsp_url_ConsultaCP: http://10.67.16.19/motorUnicoCalculoWeb/CalculoAdicionalesWebImplPort
+wsp_url_ConsultaPol: http://10.67.16.13:7964/esb/auto/lp/poliza/consulta
+wsp_url_WSPagoTV: http://pruebas.gnpventamasiva.com.mx/wspagotv/wspagotv
+
+wsp_negocio_canalCobro: IN
+wsp_negocio_canalCobroSubsecuente: IN
+wsp_cab_cveTransaccion: 5
+wsp_cab_idActor: 1
+wsp_cab_idPerfil: Intermediario
+wsp_cab_idRol: 
+wsp_codPromo_recotiza: 'NOVENTADIR:OTRO:PGN'
+wsp_cambia_pago: 'NOVENTADIR:OTRO'
+wsp_valida_pago: 0
+wsp_vp_usuario: xdtpruebas
+wsp_vp_pass: pruebas
+wsp_liquida_origen_default: VM
+wsp_timeout_soap: 15000
